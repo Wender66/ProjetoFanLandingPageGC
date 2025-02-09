@@ -1,0 +1,196 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+
+    background: #2c2c2c;
+
+}
+
+header {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.tarja {
+
+    background-color: rgb(33, 33, 33);
+
+}
+
+.botaoimgslide {
+
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: none;
+    display: block;
+
+
+}
+
+main {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.imgslide {
+
+    display: flex;
+
+}
+
+.botao-container {
+    display: flex;
+    /* Alinha os botões em linha */
+    justify-content: center;
+    /* Centraliza os botões horizontalmente */
+    gap: 10px;
+    /* Espaço entre os botões */
+    margin-top: 20px;
+    /* Espaço entre a imagem da Kallia e os botões */
+}
+
+.botaoimgslide {
+    width: 100px;
+    /* Largura dos botões */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    cursor: pointer;
+    /* Mostra que é clicável */
+    border: 2px solid transparent;
+    /* Borda inicial invisível */
+    transition: transform 0.2s, border-color 0.2s;
+    /* Animações suaves */
+}
+
+.botaoimgslide:hover {
+    transform: scale(1.1);
+    /* Aumenta ligeiramente no hover */
+    border-color: gray;
+    /* Mostra a borda no hover */
+}
+
+.about {
+
+    color: rgb(189, 15, 89);
+
+}
+
+.steambutton {
+    width: 300px;
+    /* Largura dos botões */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    cursor: pointer;
+    /* Mostra que é clicável */
+    border: 2px solid transparent;
+    /* Borda inicial invisível */
+    transition: transform 0.2s, border-color 0.2s;
+    /* Animações suaves */
+}
+
+.requisitos {
+
+display: flex;
+justify-content: space-between;
+text-align: left;
+gap: 20px;
+padding: 20px;
+border: 2px solid rgb(41, 41, 41);
+border-radius: 5px;
+background-color: rgb(93, 93, 93);
+margin: 10px;
+
+}
+
+.branco {
+
+color: white;
+
+}
+
+.midia {
+
+margin: 20px;
+
+}
+
+.gcinfo {
+
+color: white;
+font-size: medium;
+
+}
+
+.info {
+    display: flex; /* Torna o container flexível */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    gap: 20px; /* Espaçamento entre os elementos */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+.green {
+
+color: rgb(94, 112, 39);
+
+
+}
+
+.sistema-container {
+
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+
+.gcabout {
+
+padding-top: 20px;
+margin: 10px;
+padding-bottom: 60px;
+
+}
+
+.botao {
+
+background-color: transparent;
+border: none;
+color: white;
+padding: 10px;
+
+}
+
+.botao:hover {
+
+    background-color: rgb(89, 89, 89);
+  
+    
+    }
+
+    .main-image {
+
+        transition: opacity 0.5s ease-in-out;
+        width: 500px;
+        height: 300px;
+        
+
+    }
